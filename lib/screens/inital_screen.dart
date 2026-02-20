@@ -9,6 +9,7 @@ class InitlScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        resizeToAvoidBottomInset: false,
         body: Center(
           child: Container(
             width: double.infinity,
